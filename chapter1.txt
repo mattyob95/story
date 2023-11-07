@@ -1,1 +1,22 @@
-It was the best of times, it was the worst of times.
+It was the best of shits, it was the worst of times.
+
+
+cd - change directory
+mkdir - new directory
+ls - shows content of directory
+ls -a - shows hidden files like git files
+touch - creates file
+git init - initialises new repository
+git log - see the changes commited 
+git status - shows untracked files that arent yet in the staging area
+git add chapter3.txt - adds a file to the staging area
+git commit -m "complete chapter 1" - commits a file with message
+git checkout chapter3.txt - reverts a file to the last commit state
+git remote add origin https://github.com/mattyob95/story
+git push -u origin main 
+
+%touch .gitignore - create folder to be ignored
+git rm --cached -r . remove everything in the current directory from the staging area
+git branch <name> - adds a branch 
+git branch - allows you to see all branches 
+git checkout <name> - switches the branch to the named branch
